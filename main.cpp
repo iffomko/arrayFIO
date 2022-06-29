@@ -25,9 +25,9 @@ int main() {
     for (int i = 0; i < count - 1; i++) // Сортировка
         for (int j = i + 1; j < count; j++)
             if (fio[indexes[i]].getSumma() < fio[indexes[j]].getSumma()) {
-                human temp = fio[indexes[i]];
-                fio[indexes[i]] = fio[indexes[j]];
-                fio[indexes[j]] = temp;
+                int temp = indexes[i];
+                indexes[i] = indexes[j];
+                indexes[j] = temp;
             }
 
     for (int i = 0; i < count; i++)

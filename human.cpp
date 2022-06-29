@@ -39,7 +39,7 @@ int human::getSumma() {
 
 int human::getFirstNumber() {
     int x = this->number;
-    int lastNum;
+    int lastNum = 0;
 
     while (x != 0) {
         lastNum = x % 10;
