@@ -1,0 +1,3 @@
+C:/arrayFIO/cmake-build-debug/CMakeFiles/arrayFIO.dir
+C:/arrayFIO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/arrayFIO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
